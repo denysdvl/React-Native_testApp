@@ -29,9 +29,9 @@ const updateUrlList = (state, action) => {
     if(state === undefined){
         return{
        urlList: [
-           {id: 1, name: 'bitcoin', active: true, url: 'https://newsapi.org/v2/everything?q=bitcoin&from=2019-08-22&sortBy=publishedAt&apiKey=a7870a79892d4248878b7b1db739da1d'},
-            {id: 2, name: 'apple', active: false, url: 'https://newsapi.org/v2/everything?q=apple&from=2019-09-21&to=2019-09-21&sortBy=popularity&apiKey=a7870a79892d4248878b7b1db739da1d'},
-            {id: 3, name: 'business', active: false, url: 'https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=a7870a79892d4248878b7b1db739da1d'}
+           {id: 1, name: 'bitcoin', active: true, url: 'https://newsapi.org/v2/everything?q=bitcoin&from=2019-08-23&sortBy=publishedAt&apiKey=870c05c78e9b4aab8e68197eff827c91'},
+            {id: 2, name: 'apple', active: false, url: 'https://newsapi.org/v2/everything?q=apple&from=2019-09-22&to=2019-09-22&sortBy=popularity&apiKey=870c05c78e9b4aab8e68197eff827c91'},
+            {id: 3, name: 'business', active: false, url: 'https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=870c05c78e9b4aab8e68197eff827c91'}
         ]
        }
     }
